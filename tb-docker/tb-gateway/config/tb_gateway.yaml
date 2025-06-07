@@ -1,0 +1,8 @@
+thingsboard:
+  host: mytb
+  port: 1883
+
+connectors:
+  - name: MQTT Broker Connector
+    type: mqtt
+    configuration: mqtt.json
